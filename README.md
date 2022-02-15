@@ -8,7 +8,7 @@ sequenceDiagram
     participant Sender
     participant Reciever
     Note left of Sender: A diagram of the TCP three way handshake
-    Sender ->> Reciever Send SYN message
+    Sender ->> Reciever: Send SYN message
     Reciever ->> Sender: response SYN/ACK
     Sender ->> Reciever: respond with ACK
 
