@@ -7,9 +7,8 @@ A simple test of the mermaid functionality of in GitHub render
 sequenceDiagram
     participant Sender
     participant Reciever
-    Note left of Sender: A diagram of the TCP three way handshake
     Sender ->> Reciever: Send SYN message
     Reciever ->> Sender: response SYN/ACK
-    Sender ->> Reciever: respond with ACK
+    Sender ->> Reciever: response with ACK
 
 ```
