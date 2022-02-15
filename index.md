@@ -21,6 +21,17 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+## TCP three-way handshake
+```mermaid
+sequenceDiagram
+    participant Sender
+    participant Reciever
+    Sender ->> Reciever: Send SYN message
+    Reciever ->> Sender: response SYN/ACK
+    Sender ->> Reciever: response with ACK
+
+```
+
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
