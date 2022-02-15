@@ -21,6 +21,13 @@ Syntax highlighted code block
 1. Numbered
 2. List
 
+
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
 ## TCP three-way handshake
 ```mermaid
 sequenceDiagram
@@ -30,11 +37,6 @@ sequenceDiagram
     Reciever ->> Sender: response SYN/ACK
     Sender ->> Reciever: response with ACK
 
-```
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
